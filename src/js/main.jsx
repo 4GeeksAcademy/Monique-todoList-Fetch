@@ -10,9 +10,12 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+import List from './components/List';
+import Test from './components/Test';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <List/>
   </React.StrictMode>,
 )

@@ -1,11 +1,93 @@
-/* 
 
-    You can write your own styles here...
+.container {
+    width: 700px;
+    font-family: Arial, sans-serif;
+    padding: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #f7f4f4;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;  
+  }
+      
+  h1 {
+    text-align: center;
+    color: #706c6c5b;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px;
+    color: #a8a6a6;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+  }
 
-*/
+  li.task-item:hover .delete-icon {
+    opacity: 1;
+    }
+  
+  li.task-item .delete-icon {
+    opacity: 0;
+    cursor: pointer;
+    color: rgb(241, 124, 124);
+    font-size: 20px;
+    margin: 10px;
+    }
+  
+  li input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    color: #a8a6a6;
+       
+  }
+  li input:focus { 
+    outline: none; /* Elimina el borde cuando el input está enfocado */
+  }
+  li input::placeholder { 
+    color: #a8a6a6; /* Cambia este color a uno más claro */
+  }
+  .footer {
+    align-items: flex-start;
+    font-size: 14px;
+    color: #d3d1d1;
+       
+  }
+  .listas {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 0 5px rgba(255, 254, 254, 0.986);
+    overflow: hidden;
+       
+  }
+.hoja1 {
+  
+  width: 577px;
+  height: 6px;
+  background-color: white;
+  margin-left: 1px;
+  box-shadow: 0 4px 10px rgb(223, 221, 221); /* Añade un efecto de sombreado suave */ 
+  border: 1px solid rgba(173, 172, 172, 0.3);
+}
+
+.hoja2 {
+  width: 575px;
+  height: 6px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 2px;
+  box-shadow: 0 4px 10px rgb(223, 221, 221); /* Añade un efecto de sombreado suave */ 
+  border: 1px solid rgba(173, 172, 172, 0.3);
+
+}
+ 
