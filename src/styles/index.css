@@ -2,7 +2,7 @@
 .container {
     width: 700px;
     font-family: Arial, sans-serif;
-    padding: 60px;
+    padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background: #f7f4f4;
     height: 100vh;
@@ -73,21 +73,26 @@
   }
 .hoja1 {
   
-  width: 577px;
+  width: 635px;
   height: 6px;
   background-color: white;
-  margin-left: 1px;
+  margin-left: 2px;
   box-shadow: 0 4px 10px rgb(223, 221, 221); /* Añade un efecto de sombreado suave */ 
   border: 1px solid rgba(173, 172, 172, 0.3);
 }
 
 .hoja2 {
-  width: 575px;
+  width: 626px;
   height: 6px;
   background-color: rgb(255, 255, 255);
-  margin-left: 2px;
+  margin-left: 5px;
   box-shadow: 0 4px 10px rgb(223, 221, 221); /* Añade un efecto de sombreado suave */ 
   border: 1px solid rgba(173, 172, 172, 0.3);
 
 }
- 
+ button{
+  border-radius: 10px;
+  background: grey;
+  color: white;
+  font-size: 20px;
+ }

@@ -141,7 +141,7 @@ const List = () => {
                 
         <div style={{ textAlign: "center", margin: "20px 0" }}>
         <button onClick={obtenerTarea}>Cargar Tareas</button>
-        <button onClick={eliminarUsuario}>Eliminar y Recrear Usuario</button>
+        <button onClick={eliminarUsuario}>Eliminar Tareas</button>
       </div>
           </div>
              <div className="hoja1"></div> 
