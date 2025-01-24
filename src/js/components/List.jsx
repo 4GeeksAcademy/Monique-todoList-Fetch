@@ -114,8 +114,10 @@ const List = () => {
           .then((response) => {
               if (response.ok) {
                   console.log("Usuario creado exitosamente");
+                  setNuevaTarea([]);
               } else {
                   console.error("Erros al crear el usuario");
+                  
               }
           })
     }
